@@ -53,7 +53,7 @@ public class AllScenarioRunTest extends BaseClass{
 	    Assert.assertEquals(actualURL, expectedURL);
 	    Log.info("Login is Success");
 	    
-	    //view employee profiles method
+	    //view all employee profiles method
 	    Thread.sleep(3000);
 	    homePage  = new HomePage();
 	    employeePage = homePage.viewEmployeePage(employeePage);
@@ -117,7 +117,7 @@ public class AllScenarioRunTest extends BaseClass{
 	    Log.info("Rejection of selected Time-Track records is Successful");
 	    
 	    
-	    //logout method
+	    //finally logout method
 	    Thread.sleep(3000);
 	    homePage  = new HomePage();
 	    loginPage = homePage.login(loginPage);
